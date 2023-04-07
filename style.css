@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100&family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    background-color: hsl(216, 50%, 16%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.card {
+    background-color: hsl(215, 32%, 27%);
+    margin-top: 0;
+    width: 350px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px -3px black;
+}
+
+.primary {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.view {
+    position: absolute;
+    top: 124px;
+    background-color: hsl(178, 100%, 50%, 60%);
+    width: 310px;
+    height: 315px;
+    z-index: 999;
+    border-radius: 20px;
+    opacity: 0;
+    transition: .5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view>img {
+    width: 50px;
+    height: 50px;
+}
+
+.view:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.info,
+.info-div,
+.card,
+.text,
+footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'MuseoModerno', cursive;
+    font-family: 'Outfit', sans-serif;
+}
+
+.info-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info>p {
+    color: gray;
+}
+
+.info-div>.text-2 {
+    display: flex;
+    align-items: center;
+}
+
+.info-div>.text-2>img {
+    padding-right: 5px;
+}
+
+.clock {
+    width: 25px;
+    padding-right: 5px;
+}
+
+.day {
+    color: gray;
+}
+
+.text,
+.name {
+    color: white;
+}
+
+.text-2:first-of-type {
+    color: hsl(178, 100%, 50%)
+}
+
+.text:hover,
+.name:hover {
+    color: cyan;
+    cursor: pointer;
+}
+
+hr {
+    border: 1px solid gray;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+.img-avatar {
+    width: 30px;
+}
+
+.attribution {
+    font-size: 11px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 1440px) {
+
+    .primary {
+        width: 310px;
+    }
+
+    .info,
+    .info-div,
+    .card,
+    .text,
+    .attribution,
+    footer {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+}
