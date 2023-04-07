@@ -20,7 +20,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## screenshot
 
-- Solution URL [https://charming-marzipan-b1a8de.netlify.app/]
+- Solution URL [https://candid-kataifi-494d89.netlify.app/]
 
 ## my-process
 
