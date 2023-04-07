@@ -118,6 +118,10 @@ footer {
     align-items: center;
 }
 
+footer>.text-2 {
+    color:gray;
+}
+
 .img-avatar {
     width: 30px;
 }
